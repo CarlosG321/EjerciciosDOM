@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Div</title>
+    <script src="Eje2.js"></script>
+    <style>
+        .cuadro{
+            width: 50%;
+            height: 400px;
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Ancho y alto de un Div</h1>
+        Ancho: <input type="number" id="ancho" onchange="crearCuadro()"><br><br>
+        Alto: <input type="number" id="alto"  onchange="crearCuadro()"><br><br>
+        <div class="cuadro" id="cuadro"></div>
+    </center>
+</body>
+</html>

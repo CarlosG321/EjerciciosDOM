@@ -1,0 +1,12 @@
+#zona {  
+    width: 200px;  
+    height: 60px;  
+    background-color: beige;  
+    color: grey;  
+    text-align: center;  
+    font-size: 250%;  
+    }  
+    button{  
+        height:50px;  
+        width:150px;  
+       }  
